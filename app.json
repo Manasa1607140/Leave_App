@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "SRIT Leave, Message & Outpass (Enhanced Dummy)",
+    "slug": "srit-leave-message-outpass",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/SRIT-LOGO.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.prudhvi365.sritleavemessageoutpass"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "96f8eb42-ff01-42d7-914a-1ccaa9da84f9"
+      }
+    }
+  }
+}
